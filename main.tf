@@ -9,7 +9,7 @@ resource "aws_ecs_cluster" "example_cluster" {
 resource "aws_security_group" "ecs_security_group" {
   name        = "ecs-security-group"
   description = "Security group for ECS tasks"
-  vpc_id      = "your_vpc_id"  # Update with your VPC ID
+  vpc_id      = "vpc-0362ab3572b660833"  # Update with your VPC ID
 
   ingress {
     from_port   = 0
